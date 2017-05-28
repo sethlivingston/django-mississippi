@@ -14,6 +14,8 @@ class Resource(models.Model):
     slug = models.SlugField(max_length=2000)
     type = models.ForeignKey(ResourceType)
     sites = models.ManyToManyField(Site, through='SiteResource')
+    available_on = models.DateTimeField(blank=True, null=True)
+    available_until = models.DateTimeField(blank=True, null=True)
     last_modified = models.DateTimeField(auto_now=True)
 
 
