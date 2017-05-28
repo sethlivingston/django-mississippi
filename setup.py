@@ -14,11 +14,11 @@ setup(
     license='ISC License',
     description='Promote resources to first class citizens for prefix-less URLs and easy sitemaps.',
     long_description=README,
-    url='TBD',
+    url='https://github.com/sethlivingston/django-mississippi',
     author='Seth Livingston',
     author_email='webdevbyseth@gmail.com',
     classifiers=[
-        'Environment :: Web Environemtn',
+        'Environment :: Web Environment',
         'Framework :: Django',
         'Framework :: Django :: 1.11',
         'Intended Audience :: Developers',
