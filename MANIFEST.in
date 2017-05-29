@@ -1,3 +1,3 @@
 include LICENSE
 include README.rst
-recursive-include mississippi/tempalates *
+recursive-include mississippi/templates *
