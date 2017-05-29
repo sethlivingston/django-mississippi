@@ -42,4 +42,4 @@ def sitemap(request: HttpRequest) -> HttpResponse:
     resources = resources.order_by('-available_on')
     resources = resources[:50000]  # max allowed in sitemap.xml
 
-    return render(request, 'sitemap.xml', {'resources': resources}, 'application/xml; charset=UTF-8')
+    return render(request, 'mississippi/sitemap.xml', {'resources': resources}, 'application/xml; charset=UTF-8')
